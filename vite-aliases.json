@@ -1,0 +1,6 @@
+[
+  {
+      "find": "@",
+      "replacement": "src"
+  }
+]

@@ -1,0 +1,5 @@
+//-
+  SVG sprite mixin
+  @param {string} iconID - Name of icon ID attribute without #: 'icon-help'
+mixin uiIcon(icon_id)
+  i.ui-icon&attributes(attributes): svg: use(xlink:href='src/assets/images/sprite.svg' + '#' + icon_id)

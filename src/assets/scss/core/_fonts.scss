@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// Fonts
+// -----------------------------------------------------------------------------
+
+/* arial-regular - cyrillic */
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('@/assets/fonts/ArialRegular.ttf') format('ttf');
+}
+
+/* arial-800 - cyrillic */
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('@/assets/fonts/ArialBold.ttf') format('ttf');
+}
